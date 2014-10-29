@@ -4,11 +4,11 @@
 		Title="MainWindow" Height="350" Width="525">
 	<Grid>
 		<TextBlock TextWrapping="Wrap">
-  <Run Text="Click "/>
+  <Run Text="Click " />
   <Hyperlink Click="OnClick">
-	<Run Text="here"/>
+	<Run Text="here" />
   </Hyperlink>
-  <Run Text=" for more information"/>
+  <Run Text=" for more information" />
 		</TextBlock>
 	</Grid>
 </Window>
